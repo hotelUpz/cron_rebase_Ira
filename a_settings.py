@@ -52,15 +52,15 @@ class UsersSettings():
                 "BINANCE_API_PRIVATE_KEY": "0QOqV5mlLLPFUIIVxc7kSIjAqKVFEWrKje1d2sT0UkCrsXc7DD4wYNgn39wCTvyG"
             },
 
-            "proxies": [
-                None
-                # {
-                #     "enable": True,
-                #     "proxy_address": '154.218.20.43',
-                #     "proxy_port": '64630',
-                #     "proxy_login": '1FDJcwJR',
-                #     "proxy_password": 'U2yrFg4a'
-                # }
+            "proxies": [             
+                {
+                    "enable": True,
+                    "proxy_address": '154.218.20.43',
+                    "proxy_port": '64630',
+                    "proxy_login": '1FDJcwJR',
+                    "proxy_password": 'U2yrFg4a'
+                }
+                # None
             ],
 
             "core": { 
@@ -111,3 +111,6 @@ EMO_SUCCESS = "🟢"
 EMO_LOSE = "🔴"
 EMO_ZERO = "⚪"
 EMO_ORDER_FILLED = "🤞"
+
+
+# curl -x 'http://154.218.20.43:64630' --proxy-user '1FDJcwJR:U2yrFg4a' https://ipinfo.io/json

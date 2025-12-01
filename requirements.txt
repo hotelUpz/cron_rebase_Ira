@@ -1,0 +1,11 @@
+# setuptools
+requests
+# websockets
+aiohttp
+numpy
+# numpy==1.26.4
+numba
+pytz
+pandas-ta
+pandas
+aiofiles
